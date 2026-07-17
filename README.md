@@ -16,3 +16,8 @@ The project purpuse is to count people, for example, who goes in/out to your sto
 
 
 <img width="737" height="536" alt="image" src="https://github.com/user-attachments/assets/1104b683-ba97-4957-a569-36d5a96f9c10" />
+
+
+# The final building
+
+<img width="1457" height="859" alt="image" src="https://github.com/user-attachments/assets/65a1885e-9905-4c23-a335-c74e1fde8512" />
