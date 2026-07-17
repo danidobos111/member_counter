@@ -1,4 +1,6 @@
-# member_counter
+(AI used in code!)
+
+# Member Counter
 The project purpuse is to count people, for example, who goes in/out to your store, and with the data in the end of the day, you could just devide the number with 2, and you get how many people was in your store.
 
 # Steps to Reproduce
