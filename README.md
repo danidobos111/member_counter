@@ -11,4 +11,6 @@ The project purpuse is to count people, for example, who goes in/out to your sto
 7. Now, you can upload my code to your microcontroller and have fun :D
 
 #The final circuit
+
+
 <img width="737" height="536" alt="image" src="https://github.com/user-attachments/assets/1104b683-ba97-4957-a569-36d5a96f9c10" />
