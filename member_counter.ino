@@ -87,7 +87,7 @@ long measureDistance(){
 }
 
 int pre_dist = 10000;
-
+int pre = 0;
 void loop(){
   unsigned long now = millis();
 
@@ -99,7 +99,7 @@ void loop(){
     splitNumber(currentNumber);
   }*/
   
-  
+
 
   // --- Multiplexálás ---
   if(now - lastMuxTime >= muxInterval){
@@ -108,7 +108,6 @@ void loop(){
     activeDigit++;
     if(activeDigit > 3) activeDigit = 0;
   }
-
   // --- Távolságmérés ritkábban, nem minden loop-ban ---
   if(now - lastDistTime >= distInterval){
     lastDistTime = now;
@@ -116,10 +115,16 @@ void loop(){
     if(distance >= 0){
       Serial.println(distance);
       if(distance < 15 && abs(pre_dist-distance) > 10){
-        currentNumber++;
+        if(!pre){
+          currentNumber++;
+        }
+        pre++;
+        pre%=2;
         splitNumber(currentNumber);
       }
       pre_dist = distance;
     }
+  }
+}
   }
 }
