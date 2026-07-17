@@ -1,3 +1,5 @@
+//---------------AI HELP----------------
+
 const int echo = 18, trig = 8;
 
 const int digs[4]  = {9, 10, 11, 12};      // digit select pins (LOW = digit ON)
