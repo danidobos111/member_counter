@@ -9,3 +9,6 @@ The project purpuse is to count people, for example, who goes in/out to your sto
 5. Connect the pins with the microcontroller recommendation: trig - 8, echo - 18
 6. Test the 7 segment display, to know, the common pin is a cathode or a anode. If you send a HIGH signal to the digit 1 (D1) and a HIGH signal to A, and it's on, than the common pin is a anode, so you HAVE TO change my code, but if it's off, than you don't have to change my code.
 7. Now, you can upload my code to your microcontroller and have fun :D
+
+#The final circuit
+<img width="737" height="536" alt="image" src="https://github.com/user-attachments/assets/1104b683-ba97-4957-a569-36d5a96f9c10" />
